@@ -8,7 +8,7 @@ import cv2
 cap = cv2.VideoCapture(0)  
 
 
-source_path = "/home/aahana/Pictures/squirrel.jpg"  
+source_path = "squirrel.jpg"  
 source = cv2.imread(source_path)
 
 # Load the ArUCo dictionary and parameters
